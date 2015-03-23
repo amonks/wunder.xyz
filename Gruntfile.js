@@ -92,6 +92,12 @@ module.exports = function(grunt) {
         },
       },
     },
+    'gh-pages': {
+      options: {
+        base: 'build'
+      },
+      src: ['**']
+    }
   });
 
 
@@ -119,7 +125,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('dist', [
     'build',
-    'requirejs:compile'
+    'gh-pages'
   ]);
 
   grunt.registerTask('default', [
