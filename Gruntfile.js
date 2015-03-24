@@ -56,9 +56,10 @@ module.exports = function(grunt) {
         options: {
           pretty: true
         },
-        files: [{
-          "build/index.html": "src/jade/index.jade",
-        }]
+        files: [
+          { "build/index.html": "src/jade/index.jade" },
+          { "build/info.html": "src/jade/info.jade" }
+        ]
       }
     },
 
