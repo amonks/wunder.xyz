@@ -13,5 +13,12 @@ block nav
 block inner
   h1.cover-heading Info
   include:markdown ../md/statement.md
-  .artists
-    include:markdown ../md/artists.md
+  h2 Works
+    ul
+      - for (n in pieces)
+        - var piece = pieces[n]
+        li
+          a(href='/#{piece.slug}')
+            | #{piece.title}
+
+

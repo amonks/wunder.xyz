@@ -1,4 +1,4 @@
-Featuring the work of:
+## Works
 *   [Tanner Charles](/tanner)
 *   [Jerico Domingo](/jerico)
 *   [Maurice Hampton](/maurice)

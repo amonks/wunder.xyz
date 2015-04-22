@@ -34,7 +34,8 @@ module.exports = function(grunt) {
     'jade': {
       compile: {
         options: {
-          pretty: true
+          pretty: true,
+          data: { pieces: grunt.files.readJSON('./pieces.json') }
         },
         files: [
           { "build/index.html": "src/jade/index.jade" },
