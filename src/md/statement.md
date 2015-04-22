@@ -1,5 +1,5 @@
-The WUNDER is conceptual vessel for the diverse often hybrid, multifaceted forms of artistic expressions conceived in today’s eclectic, media driven cultural landscape.
+The WUNDER is a conceptual vessel for the diverse often hybrid, multifaceted forms of artistic expressions conceived in today’s eclectic, media driven cultural landscape.
 
-In this regard, the exhibition title refers also to the “Wunderkammer” of the lateRenaissance and Baroque periods, a precursor of what we now think of as a either natural history or art museums - meaning the bringing together of objects from different origins and disparate meanings, and then arranging them along formal rather than cultural or historical lines.
+The exhibition title refers also to the “Wunderkammer” of the late Renaissance and Baroque periods, a precursor to what we now think of as natural history or art museums—meaning the bringing together of objects from different origins and disparate meanings, and arranging of them along formal rather than cultural or historical lines.
 
-This concept for a Wunder exhibition similarly takes seven individual student installations, and while retaining their individuality, binds them in closed quarters to flow together disparate and communicating parts: something that could only be looked upon and understood therefore as a Wunder. 
+The Wunder exhibition similarly takes seven individual student installations, and while retaining their individuality, binds them in closed quarters to flow together disparate and communicating parts: something that could only be looked upon and understood therefore as a Wunder.
