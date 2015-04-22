@@ -7,16 +7,7 @@ block nav
     a(href='/') Home
   li.active
     a(href='/info') Info
-  li.dropdown
-    a.dropdown-toggle(data-toggle='dropdown' href='#' role='button' aria-expanded='false')
-      | Artists
-      span.caret
-    ul.dropdown-menu(role='menu')
-      - for (n in pieces)
-        - var piece = pieces[n]
-        li
-          a(href='/#{piece.slug}')
-            | #{piece.artist}
+  include ./_artists.jade
   li
     a(href='https://www.facebook.com/events/1057019467647590/') Facebook
 

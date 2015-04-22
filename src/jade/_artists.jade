@@ -1,0 +1,10 @@
+li.dropdown
+  a.dropdown-toggle(data-toggle='dropdown' href='#' role='button' aria-expanded='false')
+    | Artists
+    span.caret
+  ul.dropdown-menu(role='menu')
+    - for (n in pieces)
+      - var piece = pieces[n]
+      li
+        a(href='/#{piece.slug}')
+          | #{piece.artist}
