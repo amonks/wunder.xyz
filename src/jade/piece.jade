@@ -18,13 +18,13 @@ block inner
     dl
       if artist
         dt Artist:
-        dd #{artist}
+        dd #{pieces[artist]['artist']}
       if year
         dt Year:
-        dd #{year}
+        dd #{pieces[artist]['year']}
       if media
         dt Media:
-        dd !{media}
+        dd !{pieces[artist]['media']}
       if statement
         dt Statement:
-        dd !{statement}
+        dd !{pieces[artist]['statement']}
