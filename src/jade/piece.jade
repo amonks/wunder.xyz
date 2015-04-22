@@ -14,6 +14,11 @@ block inner
   h1.cover-heading
     | #{title}
   .piece
+    ul
+      if year
+        li #{year}
+      if media
+        li #{media}
     if statement
       p
         | #{statement}
