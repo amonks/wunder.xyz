@@ -2,6 +2,13 @@
  * Globals
  */
 
+body {
+  background-image: url('/map.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
 .dropdown-menu > li > a {
   color: inherit;
 }
