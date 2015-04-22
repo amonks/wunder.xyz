@@ -13,7 +13,7 @@ block nav
 
 block inner
   if pieces[artist]['image']
-    img.img-responsive(src=#{pieces[artist]['image'])
+    img.img-responsive(src=pieces[artist]['image'])
   h1.cover-heading
     | #{pieces[artist]['title']}
   .piece
