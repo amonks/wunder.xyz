@@ -2,9 +2,9 @@
 
 to build:
 
-  npm install
-  grunt build
+    npm install
+    grunt build
 
 to push to github-pages
 
-  grunt dist
+    grunt dist
