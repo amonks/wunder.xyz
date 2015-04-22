@@ -1,13 +1,6 @@
 /*
  * Globals
  */
-.cover {
-  padding: 20 20px;
-  width: 300px;
-  margin: auto;
-  background-color: #222222;
-  opacity: .8;
-}
 
 body {
   background-image: url('/map.png');
@@ -134,8 +127,13 @@ body {
  */
 
 .cover {
-  padding: 0 20px;
+  padding: 20px;
+  width: 300px;
+  margin: auto;
+  background-color: #222222;
+  opacity: .8;
 }
+
 .cover .btn-lg {
   padding: 10px 20px;
   font-weight: bold;
