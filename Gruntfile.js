@@ -43,31 +43,31 @@ module.exports = function(grunt) {
         ]
       },
       'andrew': {
-        options: { pretty: true, data: function(dest, src) { return require('./_pieces/andrew.json'); } },
+        options: { pretty: true, data: {pieces: grunt.file.readJSON('pieces.json'), artist: "andrew"} },
         files: { 'build/andrew/index.html': 'src/jade/piece.jade' }
       },
       'chris': {
-        options: { pretty: true, data: function(dest, src) { return require('./_pieces/chris.json'); } },
+        options: { pretty: true, data: {pieces: grunt.file.readJSON('pieces.json'), artist: "chris"} },
         files: { 'build/chris/index.html': 'src/jade/piece.jade' }
       },
       'jaclyn': {
-        options: { pretty: true, data: function(dest, src) { return require('./_pieces/jaclyn.json'); } },
+        options: { pretty: true, data: {pieces: grunt.file.readJSON('pieces.json'), artist: "jaclyn"} },
         files: { 'build/jaclyn/index.html': 'src/jade/piece.jade' }
       },
       'jerico': {
-        options: { pretty: true, data: function(dest, src) { return require('./_pieces/jerico.json'); } },
+        options: { pretty: true, data: {pieces: grunt.file.readJSON('pieces.json'), artist: "jerico"} },
         files: { 'build/jerico/index.html': 'src/jade/piece.jade' }
       },
       'lj': {
-        options: { pretty: true, data: function(dest, src) { return require('./_pieces/lj.json'); } },
+        options: { pretty: true, data: {pieces: grunt.file.readJSON('pieces.json'), artist: "lj"} },
         files: { 'build/lj/index.html': 'src/jade/piece.jade' }
       },
       'maurice': {
-        options: { pretty: true, data: function(dest, src) { return require('./_pieces/maurice.json'); } },
+        options: { pretty: true, data: {pieces: grunt.file.readJSON('pieces.json'), artist: "maurice"} },
         files: { 'build/maurice/index.html': 'src/jade/piece.jade' }
       },
       'tanner': {
-        options: { pretty: true, data: function(dest, src) { return require('./_pieces/tanner.json'); } },
+        options: { pretty: true, data: {pieces: grunt.file.readJSON('pieces.json'), artist: "tanner"} },
         files: { 'build/tanner/index.html': 'src/jade/piece.jade' }
       },
     },
