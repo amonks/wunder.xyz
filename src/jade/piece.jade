@@ -16,15 +16,15 @@ block inner
     | #{pieces[artist]['title']}
   .piece
     dl
-      if artist
+      if pieces[artist]['artist']
         dt Artist:
         dd #{pieces[artist]['artist']}
-      if year
+      if pieces[artist]['year']
         dt Year:
         dd #{pieces[artist]['year']}
-      if media
+      if pieces[artist]['media']
         dt Media:
         dd !{pieces[artist]['media']}
-      if statement
+      if pieces[artist]['statement']
         dt Statement:
         dd !{pieces[artist]['statement']}

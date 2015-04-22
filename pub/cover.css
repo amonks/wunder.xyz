@@ -2,6 +2,16 @@
  * Globals
  */
 
+.dropdown-menu > li > a {
+  color: inherit;
+}
+.dropdown-menu {
+  background-color: inherit;
+}
+.nav .open>a {
+  background-color: inherit;
+}
+
 /* Links */
 a,
 a:focus,
