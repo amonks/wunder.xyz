@@ -14,11 +14,16 @@ block inner
   h1.cover-heading
     | #{title}
   .piece
-    ul
+    dl
+      if artist
+        dt Artist:
+        dd #{artist}
       if year
-        li #{year}
+        dt Year:
+        dd #{year}
       if media
-        li #{media}
-    if statement
-      p
-        | #{statement}
+        dt Media:
+        dd #{media}
+      if statement
+        dt Statement:
+        dd #{statement}
