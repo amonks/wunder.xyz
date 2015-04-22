@@ -19,26 +19,6 @@ module.exports = function(grunt) {
           },
         ]
       },
-      bower: {
-        files: [
-          {
-            src: 'bower_components/requirejs/require.js',
-            dest: 'build/js/require.js'
-          },
-          {
-            src: 'bower_components/require-cs/cs.js',
-            dest: 'build/js/cs/cs.js'
-          },
-          {
-            src: 'bower_components/purl/purl.js',
-            dest: 'build/js/vendor/purl.js'
-          },
-          {
-            src: 'bower_components/coffeescript/extras/coffee-script.js',
-            dest: 'build/js/coffee-script/coffee-script.js'
-          }
-        ]
-      },
       js: {
         files: [
           {
@@ -58,9 +38,37 @@ module.exports = function(grunt) {
         },
         files: [
           { "build/index.html": "src/jade/index.jade" },
-          { "build/info.html": "src/jade/info.jade" }
+          { "build/info/index.html": "src/jade/info.jade" }
         ]
-      }
+      },
+      'andrew': {
+        options: { pretty: true, data: function(dest, src) { return require('./_pieces/andrew.json'); } },
+        files: { 'build/andrew/index.html': 'src/jade/piece.jade' }
+      },
+      'chris': {
+        options: { pretty: true, data: function(dest, src) { return require('./_pieces/chris.json'); } },
+        files: { 'build/chris/index.html': 'src/jade/piece.jade' }
+      },
+      'jaclyn': {
+        options: { pretty: true, data: function(dest, src) { return require('./_pieces/jaclyn.json'); } },
+        files: { 'build/jaclyn/index.html': 'src/jade/piece.jade' }
+      },
+      'jerico': {
+        options: { pretty: true, data: function(dest, src) { return require('./_pieces/jerico.json'); } },
+        files: { 'build/jerico/index.html': 'src/jade/piece.jade' }
+      },
+      'lj': {
+        options: { pretty: true, data: function(dest, src) { return require('./_pieces/lj.json'); } },
+        files: { 'build/lj/index.html': 'src/jade/piece.jade' }
+      },
+      'maurice': {
+        options: { pretty: true, data: function(dest, src) { return require('./_pieces/maurice.json'); } },
+        files: { 'build/maurice/index.html': 'src/jade/piece.jade' }
+      },
+      'tanner': {
+        options: { pretty: true, data: function(dest, src) { return require('./_pieces/tanner.json'); } },
+        files: { 'build/tanner/index.html': 'src/jade/piece.jade' }
+      },
     },
 
     'stylus': {
@@ -117,10 +125,9 @@ module.exports = function(grunt) {
 
   grunt.registerTask('build', [
     'cleanup',
-    'copy:bower',
     'copy:pub',
     'copy:js',
-    'jade:compile',
+    'jade',
     'stylus:compile',
   ]);
 

@@ -11,7 +11,9 @@ block nav
     a(href='https://www.facebook.com/events/1057019467647590/') Facebook
 
 block inner
-  h1.cover-heading Info
-  include:markdown ../md/statement.md
-  .artists
-    include:markdown ../md/artists.md
+  h1.cover-heading
+    | #{title}
+  .piece
+    if statement
+      p
+        | #{statement}
