@@ -11,7 +11,7 @@ block nav
     a.dropdown-toggle(data-toggle='dropdown' href='#' role='button' aria-expanded='false')
       | Artists
       span.caret
-    ul
+    ul.dropdown-menu(role='menu')
       - for (n in pieces)
         - var piece = pieces[n]
         li
