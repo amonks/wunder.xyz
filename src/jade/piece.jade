@@ -12,6 +12,8 @@ block nav
     a(href='https://www.facebook.com/events/1057019467647590/') Facebook
 
 block inner
+  if pieces[artist]['image']
+    img.img-responsive(src="#{pieces[artist]['image']")
   h1.cover-heading
     | #{pieces[artist]['title']}
   .piece
