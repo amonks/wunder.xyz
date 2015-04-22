@@ -8,7 +8,7 @@
 .dropdown-menu {
   background-color: inherit;
 }
-.nav .open>a {
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
   background-color: inherit;
 }
 
